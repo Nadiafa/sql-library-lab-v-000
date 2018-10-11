@@ -10,7 +10,6 @@ ORDER BY LENGTH(characters.motto) DESC
 LIMIT 1;"
 end
 
-
 def select_value_and_count_of_most_prolific_species
   ""
 end
