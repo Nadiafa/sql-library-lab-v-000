@@ -24,11 +24,7 @@ JOIN subgenres ON series.subgenre_id = subgenres.id;"
 end
 
 def select_series_title_with_most_human_characters
-  "SELECT series.title, COUNT(characters.species) FROM series
-JOIN characters ON series.id = characters.series_id
-WHERE characters.species = "human"
-ORDER BY COUNT(characters.species) DESC 
-LIMIT 1 ;"
+  ""
 end
 
 def select_character_names_and_number_of_books_they_are_in
