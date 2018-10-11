@@ -14,3 +14,10 @@ series table
     creates a books table with a year field (FAILED - 10)
     creates a books table with a series_id field (FAILED - 11)
     creates a books table with an id as a primary key (FAILED - 12)
+  characters table
+    creates a characters table with a name field (FAILED - 13)
+    creates a characters table with a species field (FAILED - 14)
+    creates a characters table with a motto field (FAILED - 15)
+    creates a characters table with a series_id field (FAILED - 16)
+    creates a characters table with a author_id field (FAILED - 17)
+    creates a characters table with an id as a primary key (FAILED - 18)
